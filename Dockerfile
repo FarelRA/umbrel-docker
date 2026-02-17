@@ -45,5 +45,5 @@ COPY --from=fetch /rootfs/ /
 
 STOPSIGNAL SIGRTMIN+3
 VOLUME ["/sys/fs/cgroup"]
-VOLUME ["/home/umbrel"]
+VOLUME ["/data"]
 CMD ["/sbin/init"]
